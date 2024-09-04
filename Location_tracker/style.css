@@ -45,7 +45,6 @@ html {
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
     border-radius: 10px;
-    /* border: 1px solid rgba(255, 255, 255, 0.18); */
     border: none;
     color: white;
 }
@@ -81,6 +80,12 @@ html {
     transition: 0.3s ease;
     font-weight: 500;
     font-size: 14px;
+    margin-left: 5px;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: black;
 }
 
 .btn:hover {
@@ -111,6 +116,8 @@ html {
         height: 30%;
         margin-top: 21px;
         margin-bottom: 31px;
+        border-radius: 7px;
+        padding: 5px;
     }
 
     .main-btn {
